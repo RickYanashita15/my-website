@@ -1,0 +1,21 @@
+.header{
+    height: 70px;
+    width: 100%;
+    color: greenyellow;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+a {
+    text-align:center;
+    display:block;
+}
+/* below code taken from W3 schools: https://www.w3schools.com/howto/howto_css_image_text.asp */
+  /* Centered text */
+  .centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: green;
+    transform: translate(-50%, -50%);
+  }
