@@ -88,13 +88,25 @@ body {
     text-decoration: none;
     text-align: center;
     margin: 0 1em;
-    font-weight: bold;
+    font-weight: 400;
     padding-left: 5px;
     padding-right: 5px;
   }
+.nav__link-selected{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 1em;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
   /* ---------- */
 .nav__link:hover {
     color: goldenrod;
     /* Changes color of button when mouse is hovered over */
   }
-  
+.nav__link-selected:hover {
+    color: goldenrod;
+    /* Changes color of button when mouse is hovered over */
+  }

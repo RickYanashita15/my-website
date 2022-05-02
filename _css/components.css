@@ -16,6 +16,8 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: green;
+    color: whitesmoke;
+    text-shadow: 0 0 6px rgba(62, 60, 60, 0.2);
+    font-size: 80px;
     transform: translate(-50%, -50%);
   }
